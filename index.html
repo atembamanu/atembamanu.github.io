@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Emmanuel Atemba</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">
+				<h4>Emmanuel <b>Atemba</b></h4>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a href="#" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="#aboutme" class="nav-link">About Me</a>
+					</li>
+					<li class="nav-item">
+						<a href="#resume" class="nav-link">Resume</a>
+					</li>
+					<li class="nav-item">
+						<a href="#portfolio" class="nav-link">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a href="#connect" class="nav-link">Connect|Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- End of Navigation -->
+
+	<!--- Image Slider -->
+	<div id="slides" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+			<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1"></li>
+			<li data-target="#slides" data-slide-to="2"></li>
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="img/background_one.jpg">
+				<div class="carousel-caption">
+					<h1 class="display-2">A SAVVY..</h1>
+					<h3>Web Developer || Android Developer || Python Developer</h3>
+					<button type="button" class="btn btn-outline-light btn-lg">VIEW PROJECTS</button>
+					<button type="button" class="btn btn-primary btn-lg">Visit my Website</button>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="img/background_two.png">
+				<div class="carousel-caption">
+					<h1 class="display-4">Professional Skills</h1>
+					<h3>Python | PHP | CSS3 | Java | JavaScript | Android... etc</h3>
+					<button type="button" class="btn btn-outline-light btn-lg">VIEW RESUME</button>
+					<button type="button" class="btn btn-primary btn-lg">View Projects</button>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="img/background_three.png">
+				<div class="carousel-caption">
+					<h1 class="display-4">FrameWorks & CMS</h1>
+					<h3>Django | Flask | Bootstrap | Laravel | Joomla | Wordpress | Kivy</h3>
+					<button type="button" class="btn btn-outline-light btn-lg">VIEW RESUME</button>
+					<button type="button" class="btn btn-primary btn-lg">Employe Me</button>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<!-- End of Image Slider -->
+	<!--- Jumbotron -->
+	<div class="container-fluid">
+		<div class="row jumbotron">
+			<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+				<p class="lead">I have done some cool projects ranging from
+					android development to web development and I have committed and pushed them
+					to Github. Click the button to check them out.</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+				<a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">My Github</button></a>
+			</div>
+		</div>
+	</div>
+	<!-- End of Jumbotron -->
+	<!--- Welcome Section -->
+	<div class="container-fluid padding" id="aboutme">
+		<div class="row welcome text-center">
+			<div class="col-12">
+				<h1 class="display-4">About Me.</h1>
+			</div>
+			<hr>
+			<div class="col-12">
+				<p class="lead">
+					A savvy student with broad skill set. Excellent communicator experienced in interpreting
+					and implementing client and staff vision of new websites and android applications. Known for ability
+					to multi-task and juggle multiple projects simultaneously, meeting all deadlines. Thrives in e
+					nvironments that constantly embraces new technology.
+
+					I am thorough and precise in everything i do, and have a keen interest in technology, mobile
+					applications and user experience. As someone who takes responsibility for my own personal
+					development, I continually evaluate and upgrade my skills so that I stay at the cutting edge
+					of web development. I am a natural problem solver, who has proven himself by successfully
+					completing projects for IT consultancies, software houses, web design agencies, and individual clients.
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- End of welcome section -->
+	<!--- Quick skills Review -->
+	<div class="container-fluid">
+		<div class="col-12 text-center">
+			<h1 class="display-4">Quick Skills Preview</h1>
+		</div>
+		<hr class="my-4">
+		<div class="row">
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 text-center">
+						<h5>Web Design & Development</h5>
+						<canvas id="doughnut" width="120" height="120"></canvas>
+						<canvas id="skill1" width="120" height="120" class=""></canvas>
+						<p>Highly responsive websites that will suite your need using css3, HTML5, Bootstrap,
+							JavaScript. It will respondent smoothly across all media interfaces to suite every user</p>
+
+					</div>
+					<div class="col-md-3 text-center">
+						<h5>Mobile Development</h5>
+						<canvas id="doughnut2" width="120" height="120"></canvas>
+						<canvas id="skill2" width="120" height="120" class=""></canvas>
+						<p>User friendly Interface that will allow a user to toggle the application with ease.
+							The application will definitely make you achive your business goal.</p>
+					</div>
+					<div class="col-md-3 text-center">
+						<h5>Web Scraping</h5>
+						<canvas id="doughnut3" width="120" height="120"></canvas>
+						<canvas id="skill3" width="120" height="120" class=""></canvas>
+						<p>Earnesting the power of Python programing language to send queries to the
+							WWW to get you the right data right when you need it.Trust me it will save your time</p>
+					</div>
+					<div class="col-md-3 text-center">
+						<h5>Wordpress</h5>
+						<canvas id="doughnut4" width="120" height="120"></canvas>
+						<canvas id="skill4" width="120" height="120" class=""></canvas>
+						<p>I will deliver to you your website faster that never before using the World
+							largely used CMS with all sorts of tools necessary to make
+							your website autstanding.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End of Quick skills Review -->
+	<!--- Resume Section -->
+	<!-- Subsection -->
+	<div class="container-fluid padding" id="resume">
+		<div class="row welcome text-center">
+			<div class="col-12">
+				<h1 class="display-4">Resume</h1>
+			</div>
+			<hr>
+			<div class="col-12">
+				<p class="lead">
+					Savvy student in Web and Mobile Developer with 2+ years experience in using PHP, Python, HTML/HTML5, CSS/CSS3,
+					JavaScript, Django, Flask, SQLite, MariaDB, and MySQL to create awesome solutions for individual clients and
+					corporate bodies.
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- End of Subsection -->
+	<!-- Start of skillbars -->
+	<div class="container-fluid padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h3 id="titles">Professional Skills</h3>
+					<div class="col-md-12">
+						<div class="skillbar" data-percent="90%">
+							<div class="skillbar-title">ANDROID</div>
+							<div class="skill-bar-percent">90%</div>
+							<div class="skillbar-bar" style="width: 90%;"></div>
+						</div>
+
+						<div class="skillbar" data-percent="100%">
+							<div class="skillbar-title">CSS3/HTML5</div>
+							<div class="skill-bar-percent">100%</div>
+							<div class="skillbar-bar" style="width: 100%;"></div>
+						</div>
+
+						<div class="skillbar" data-percent="82%">
+							<div class="skillbar-title">PHP</div>
+							<div class="skill-bar-percent">82%</div>
+							<div class="skillbar-bar" style="width: 82%;"></div>
+						</div>
+
+						<div class="skillbar" data-percent="90%">
+							<div class="skillbar-title">BRANDING</div>
+							<div class="skill-bar-percent">90%</div>
+							<div class="skillbar-bar" style="width: 90%;"></div>
+						</div>
+						<div class="skillbar" data-percent="82%">
+							<div class="skillbar-title">JAVASCRIPT</div>
+							<div class="skill-bar-percent">82%</div>
+							<div class="skillbar-bar" style="width: 82%;"></div>
+						</div>
+
+						<div class="skillbar" data-percent="90%">
+							<div class="skillbar-title">PYTHON</div>
+							<div class="skill-bar-percent">90%</div>
+							<div class="skillbar-bar" style="width: 90%;"></div>
+						</div>
+						<div class="skillbar" data-percent="90%">
+							<div class="skillbar-title">DATABASES</div>
+							<div class="skill-bar-percent">90%</div>
+							<div class="skillbar-bar" style="width: 90%;"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<h3 id="titles">FrameWorks & CMS</h3>
+					<div class="col-md-12">
+						<div class="skillbar" data-percent="96%">
+							<div class="skillbar-title">Wordpress</div>
+							<div class="skill-bar-percent">96%</div>
+							<div class="skillbar-bar" style="width: 96%;"></div>
+						</div>
+
+						<div class="skillbar" data-percent="80%">
+							<div class="skillbar-title">Django</div>
+							<div class="skill-bar-percent">80%</div>
+							<div class="skillbar-bar" style="width: 80%;"></div>
+						</div>
+
+						<div class="skillbar" data-percent="85%">
+							<div class="skillbar-title">Joomla</div>
+							<div class="skill-bar-percent">85%</div>
+							<div class="skillbar-bar" style="width: 85%;"></div>
+						</div>
+
+						<div class="skillbar" data-percent="83%">
+							<div class="skillbar-title">Flask</div>
+							<div class="skill-bar-percent">83%</div>
+							<div class="skillbar-bar" style="width: 83%;"></div>
+						</div>
+						<div class="skillbar" data-percent="94%">
+							<div class="skillbar-title">Git</div>
+							<div class="skill-bar-percent">94%</div>
+							<div class="skillbar-bar" style="width: 94%;"></div>
+						</div>
+
+						<div class="skillbar" data-percent="87%">
+							<div class="skillbar-title">Bootstrap</div>
+							<div class="skill-bar-percent">87%</div>
+							<div class="skillbar-bar" style="width: 87%;"></div>
+						</div>
+
+						<div class="skillbar" data-percent="83%">
+							<div class="skillbar-title">WIX</div>
+							<div class="skill-bar-percent">83%</div>
+							<div class="skillbar-bar" style="width: 83%;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End of skillbars -->
+	<!-- End of resume sectiion -->
+
+	<!--- Start of Additional skill -->
+	<div class="container-fluid">
+		<div class="col-12 text-center">
+			<h3 id="titles">Additional Skill</h3>
+		</div>
+		<hr class="my-4">
+		<div class="row">
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 text-center">
+						<canvas id="doughnut5" width="120" height="120"></canvas>
+						<canvas id="skill5" width="120" height="120" class=""></canvas>
+						<h5>Communication Skill</h5>
+
+
+					</div>
+					<div class="col-md-3 text-center">
+						<canvas id="doughnut6" width="120" height="120"></canvas>
+						<canvas id="skill6" width="120" height="120" class=""></canvas>
+						<h5>Creativity</h5>
+
+					</div>
+					<div class="col-md-3 text-center">
+						<canvas id="doughnut7" width="120" height="120"></canvas>
+						<canvas id="skill7" width="120" height="120" class=""></canvas>
+						<h5>Search Engine Optimazation</h5>
+
+					</div>
+					<div class="col-md-3 text-center">
+						<canvas id="doughnut8" width="120" height="120"></canvas>
+						<canvas id="skill8" width="120" height="120" class=""></canvas>
+						<h5>Digital Marketing</h5>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End of Additional skill -->
+	<!-- Start of Experience -->
+	<div class="container">
+		<div class="page-header">
+			<h1 id="timeline">Timeline</h1>
+		</div>
+		<ul class="timeline">
+			<li>
+				<div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+				<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4 class="timeline-title">Mussum ipsum cacilds</h4>
+						<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
+					</div>
+					<div class="timeline-body">
+						<p>paragraph 1.</p>
+					</div>
+				</div>
+			</li>
+			<li class="timeline-inverted">
+				<div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+				<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4 class="timeline-title">Mussum ipsum cacilds</h4>
+					</div>
+					<div class="timeline-body">
+						<p>paragraph 2</p>
+
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+				<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4 class="timeline-title">Mussum ipsum cacilds</h4>
+					</div>
+					<div class="timeline-body">
+						<p>Paragraph 3.</p>
+					</div>
+				</div>
+			</li>
+			<li class="timeline-inverted">
+				<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4 class="timeline-title">Mussum ipsum cacilds</h4>
+					</div>
+					<div class="timeline-body">
+						<p>paragraph 4.</p>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
+				<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4 class="timeline-title">Mussum ipsum cacilds</h4>
+					</div>
+					<div class="timeline-body">
+						<p>paragraph 6.</p>
+						<hr>
+						<div class="btn-group">
+							<button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
+								<i class="glyphicon glyphicon-cog"></i> <span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li class="divider"></li>
+								<li><a href="#">Separated link</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4 class="timeline-title">Mussum ipsum cacilds</h4>
+					</div>
+					<div class="timeline-body">
+						<p>paragraph 7.</p>
+					</div>
+				</div>
+			</li>
+			<li class="timeline-inverted">
+				<div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+				<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4 class="timeline-title">Mussum ipsum cacilds</h4>
+					</div>
+					<div class="timeline-body">
+						<p>paragraph 8</p>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<!--- Emoji Section -->
+
+
+	<!--- Meet the team -->
+
+
+	<!--- Cards -->
+
+
+	<!--- Two Column Section -->
+
+
+	<!--- Connect -->
+
+
+	<!--- Footer -->
+
+	<!-- End of footer -->
+	<!-- Beginning of JavaScript files -->
+	<script src="timeline.js"></script>
+	<script src="scripts.js"></script>
+	<script>
+		$(function () {
+			$('a[href*="#"]:not([href="#"])').click(function () {
+				if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+					var target = $(this.hash);
+					target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+					if (target.length) {
+						$('html, body').animate({
+							scrollTop: target.offset().top
+						}, 1000);
+						return false;
+					}
+				}
+			});
+		});
+	</script>
+
+
+
+
+</body>
+
+</html>
