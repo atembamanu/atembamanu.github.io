@@ -10,7 +10,8 @@ html,body{
 
 .navbar{
   padding: .8rem;
-  background-color: white;
+  background-color: #F5F5F5;
+
 }
 .navbar-nav > li > a:hover{
   background-color:#2163af;
