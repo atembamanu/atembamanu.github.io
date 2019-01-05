@@ -505,19 +505,175 @@
 		</div>
 	</div>
 	<!-- End of Quotes -->
-	<!--- Emoji Section -->
+	<!--- Portfolio Section Section -->
+	<div class="container-fluid padding" id="portfolio">
+		<div class="row welcome text-center">
+			<div class="col-12">
+				<br>
+				<h1 class="display-6" id="titles">&lt;Portfolio/&gt;</h1>
+				<p class="lead">Some of the projects have worked on.</p>
+			</div>
+			<hr>
 
-
-	<!--- Meet the team -->
-
-
+		</div>
+	</div>
 	<!--- Cards -->
-
-
-	<!--- Two Column Section -->
-
+	<div class="container-fluid padding">
+		<div class="row padding">
+			<div class="col-md-4">
+				<div class="card">
+					<img src="img/davis.png" alt="Davis Website" class="card-img-top">
+					<div class="card-body bg-info text-center">
+						<h4 class="card-title">Davis Real Estate LLC</h4>
+						<p class="card-text">A Real Estate Agent Website</p>
+						<a href="http://davisrealestatellc.com/" class="btn btn-outline-primary">Check it Out</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+					<img src="img/pbt.png" alt="Portfolio two" class="card-img-top">
+					<div class="card-body bg-info text-center">
+						<h4 class="card-title">PB Tax Reclaim</h4>
+						<p class="card-text">Tax Reclaim Front End for PB</p>
+						<a href="https://pbtaxreclaim.ca/" class="btn btn-outline-primary">Check it Out</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+					<img src="img/sahq.png" alt="Sahq website" class="card-img-top">
+					<div class="card-body bg-info text-center">
+						<h4 class="card-title">SAHQ Org</h4>
+						<p class="card-text">Developing Youth in New Mexico</p>
+						<a href="http://sahq.org/" class="btn btn-outline-primary">Check it Out</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row padding">
+			<div class="col-md-4">
+				<div class="card">
+					<img src="img/longrich.png" alt="longrich" class="card-img-top">
+					<div class="card-body bg-info text-center">
+						<h4 class="card-title">Longrich Mombasa</h4>
+						<p class="card-text">A company that markets Longrich Products</p>
+						<a href="https://longrichmarketing.000webhostapp.com/" class="btn btn-outline-primary">Check it Out</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+					<img src="img/karibuhostels.png" alt="karibuhostels" class="card-img-top">
+					<div class="card-body bg-info text-center">
+						<h4 class="card-title">Karibu Hostels</h4>
+						<p class="card-text">A website to assist students books hostels and hotels</p>
+						<a href="http://www.karibuhostels.tk/" class="btn btn-outline-primary">Check it Out</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+					<img src="img/Maseno-hub.jpg" alt="MasenoHotLibApp" class="card-img-top">
+					<div class="card-body bg-info text-center">
+						<h4 class="card-title">Maseno HotLib App</h4>
+						<p class="card-text">An android sharing application such as turorials</p>
+						<a href="https://github.com/atembamanu/MasenoHotLibApp" class="btn btn-outline-primary">See Profile</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--- End of the portfolio section-->
 
 	<!--- Connect -->
+	<div class="container-fluid padding" id="connect">
+		<div class="row welcome text-center">
+			<div class="col-12">
+				<br>
+				<h1 class="display-6" id="titles">&lt;Connect with Me/&gt;</h1>
+				<p class="lead">I am always ready to work, provide support or assistance.
+					Feel free to reach out anytime..</p>
+			</div>
+			<hr>
+
+		</div>
+	</div>
+	<div class="container-fluid padding">
+		<form id="contact-form" method="post" action="contact.php" role="form">
+
+			<div class="messages"></div>
+
+			<div class="controls">
+
+				<div class="row padding">
+					<div class="col-md-6 ">
+						<div class="form-group">
+							<label for="form_name">Firstname *</label>
+							<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname"
+							 required="required" data-error="Firstname is required.">
+							<div class="help-block with-errors"></div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label for="form_lastname">Lastname *</label>
+							<input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname"
+							 required="required" data-error="Lastname is required.">
+							<div class="help-block with-errors"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row padding">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label for="form_email">Email *</label>
+							<input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email"
+							 required="required" data-error="Valid email is required.">
+							<div class="help-block with-errors"></div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label for="form_need">Please specify your need *</label>
+							<select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+								<option value=""></option>
+								<option value="Hire You">I want to hire you</option>
+								<option value="Work with you">I want to work with you</option>
+								<option value="recommend you">I want to recommend you</option>
+								<option value="Other">Other</option>
+							</select>
+							<div class="help-block with-errors"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row padding">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label for="form_message">Message *</label>
+							<textarea id="form_message" name="message" class="form-control" placeholder="Message for me" rows="4" required="required"
+							 data-error="Please, leave us a message."></textarea>
+							<div class="help-block with-errors"></div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<input type="submit" class="btn btn-success btn-send" value="Send message">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<p class="text-muted">
+							The fields marked <strong>*</strong> are required. Thank You . </p>
+					</div>
+				</div>
+			</div>
+
+		</form>
+	</div>
+
+
+
+	<!-- end of Connect -->
 
 
 	<!--- Footer -->
@@ -540,6 +696,27 @@
 					}
 				}
 			});
+		});
+	</script>
+	<!-- new script for cards -->
+	<script>
+		$(document).ready(function () {
+
+			$('.col-md-4').hover(
+				// trigger when mouse hover
+				function () {
+					$(this).animate({
+						marginTop: "-=1%",
+					}, 200);
+				},
+
+				// trigger when mouse out
+				function () {
+					$(this).animate({
+						marginTop: "0%"
+					}, 200);
+				}
+			);
 		});
 	</script>
 
